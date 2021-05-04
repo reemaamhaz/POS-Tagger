@@ -21,7 +21,6 @@ such as numbers, etc.
 
 ## How to run the program:
 1. python ra2911-HW5.py WSJ_02-21.pos-chunk WSJ_24.pos WSJ_23.pos
-# To grade 
 2. cd MAX_ENT_FILES
 3. java -Xmx16g -cp .:maxent-3.0.0.jar:trove.jar MEtrain ../training.feature model.chunk      
 4. java -Xmx16g -cp .:maxent-3.0.0.jar:trove.jar MEtag ../test.feature model.chunk response.chunk
